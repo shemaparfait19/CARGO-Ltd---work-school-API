@@ -90,7 +90,6 @@ $result_exports = $conn->query($sql_exports);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CARGO Ltd - Furniture Management</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-</head>
 <body class="bg-gray-100 p-6">
     <div class="max-w-2xl mx-auto bg-white p-6 rounded shadow-md">
         <h2 class="text-2xl font-bold mb-4">Furniture Management</h2>

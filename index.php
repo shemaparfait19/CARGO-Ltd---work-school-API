@@ -2,13 +2,13 @@
 session_start();
 include 'db.php'; 
 
-// Redirect to furniture management if already logged in
+
 if (isset($_SESSION['username'])) {
     header("Location: furniture.php");
     exit();
 }
 
-// User Login
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
     $userName = $_POST['username'];
     $password = $_POST['password'];
@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['login'])) {
         echo "<p class='text-red-500'>No user found.</p>";
     }
 }
-?>
+?>  
 
 <!DOCTYPE html>
 <html lang="en">
